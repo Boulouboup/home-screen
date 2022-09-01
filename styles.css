@@ -38,5 +38,5 @@ p{
 }
 
 img:hover{
-    height: 110px;
+    transform: scale(1.2);
 }
