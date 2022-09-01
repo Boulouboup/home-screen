@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(229, 235, 230);
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    
+}
+
+img{
+    border-radius: 50%;
+    height: 98px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(155, 153, 153));
+    filter: drop-shadow(8px 5px 5px rgb(155, 153, 153));
+    transition: all 0.15s;
+}
+
+a{
+    margin: 35px;
+    text-decoration: none;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+img:hover{
+    height: 110px;
+}
